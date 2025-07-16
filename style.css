@@ -1,0 +1,557 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-size: auto 250% ;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+}
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+.card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.gradient-border{
+    padding: 2px;
+    border-radius: 12px;
+    background: rgb(168, 164, 164);
+    display: inline-block;
+    box-sizing: border-box;
+    animation: float 2.5s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gradient-border:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-main-main{
+    display: flex;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.header-img{
+    width: 295.3px;
+    height: 150.1px;
+    border-radius: 12px;
+    margin-top: 2px;
+}
+.profile-pic{
+    width: 73.6px;
+    height: 73.6px;
+    border-radius: 99px;
+    margin-left: -200px;
+    margin-top: -60px;
+}
+.main-text{
+    margin-left: -180px;
+    margin-top: -15px;
+}
+.mini-bord-main{
+    display: flex;
+    gap: 6px;
+}
+.mini-bord1{
+    width: 80px;
+    height: 31px;
+    background-color: rgb(243, 242, 242,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 99px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mini-bord2{
+    width: 70px;
+    height: 31px;
+    background-color: rgb(243, 242, 242,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 99px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mini-bord3{
+    width: 60px;
+    height: 31px;
+    background-color: rgb(243, 242, 242, 0.01);
+    backdrop-filter: blur(10px);
+    border-radius: 99px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mini-bord4{
+    width: 33px;
+    height: 31px;
+    border-radius: 99px;
+    border: 1px solid rgb(243, 242, 242) ;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mini-bord1 p,
+.mini-bord2 p,
+.mini-bord3 p,
+.mini-bord4 p{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 550;
+}
+.mini-bord1:hover,
+.mini-bord2:hover,
+.mini-bord3:hover,
+.mini-bord4:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 30px rgba(236, 254, 235, 0.09);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.info-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 10px;
+}
+.info1{
+    text-align: center;
+    row-gap: 100px;
+}
+.info2{
+    text-align: center;
+    row-gap: 100px;
+}
+.info3{
+    text-align: center;
+    row-gap: 100px;
+}
+.line{
+    background-color: #373737;
+    width: 1px;
+    height: 43px;
+    border-radius: 2px;
+}
+.line-1{
+    background-color: #373737;
+    width: 1px;
+    height: 43px;
+    border-radius: 2px;
+}
+button{
+    width: 260px;
+    height: 43px;
+    background-color: black;
+    border-radius: 99px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover{
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #12bcf0, #1013ca, #140c7a, #1d78cd, #1341e9);
+    background-size: 300% 300%;
+    background-position: right center;
+    transition: background-position 2.5s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+button a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Instagram*/
+.card-main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+.gradient-border1{
+    padding: 2px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #e6683c, #dc2743, #f09433, #cc2366, #bc1888);
+    display: inline-block;
+    box-sizing: border-box;
+    animation: float 2.5s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gradient-border1:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card1{
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.header-img1{
+    width: 295.3px;
+    height: 150.1px;
+    border-radius: 12px;
+    margin-top: 2px;
+}
+.profile-pic1{
+    width: 82px;
+    height: 82px;
+    border-radius: 99px;
+    /* margin-top: -30px; */
+}
+.main-text1{
+    text-align: center;
+    margin-top: -15px;
+}
+.info-main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 15px;
+}
+.info4{
+    text-align: center;
+    row-gap: 100px;
+}
+.info5{
+    text-align: center;
+    row-gap: 100px;
+}
+.info6{
+    text-align: center;
+    row-gap: 100px;
+}
+button2{
+    width: 260px;
+    height: 43px;
+    background-color: black;
+    border-radius: 99px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button2:hover{
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #e6683c, #dc2743, #f09433, #cc2366, #bc1888);
+    background-size: 300% 300%;
+    background-position: right center;
+    transition: background-position 2.5s ease, transform 0.3s ease;
+    cursor: pointer; 
+}
+button2 a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Linked In*/
+.card-main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.gradient-border2{
+    padding: 2px;
+    border-radius: 12px;
+    background: #b7dcff;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: float 2.5s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gradient-border2:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card2{
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.header-img2{
+    width: 295.3px;
+    height: 150.1px;
+    border-radius: 12px;
+    margin-top: 2px;
+}
+.profile-pic2{
+    width: 73.6px;
+    height: 73.6px;
+    border-radius: 99px;
+    /* margin-left: -200px; */
+    margin-top: -60px;
+}
+.main-text2{
+    /* margin-left: -88px; */
+    text-align: center;
+    margin-top: -15px;
+}
+.mini-bord-main2{
+    display: flex;
+    gap: 6px;
+}
+.mini-bord8{
+    width: 127px;
+    height: 31px;
+    background-color: rgb(243, 242, 242,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 99px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mini-bord9{
+    width: 125px;
+    height: 31px;
+    background-color: rgb(243, 242, 242,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 99px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mini-bord8 p,
+.mini-bord9 p{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 550;
+}
+.mini-bord8:hover,
+.mini-bord9:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 30px rgba(236, 254, 235, 0.09);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.info-main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 5px;
+}
+.info7{
+    text-align: center;
+    row-gap: 100px;
+}
+.info8{
+    text-align: center;
+    row-gap: 100px;
+}
+.info9{
+    text-align: center;
+    row-gap: 100px;
+}
+.line2{
+    background-color: #373737;
+    width: 1px;
+    height: 43px;
+    border-radius: 2px;
+}
+.line2-1{
+    background-color: #373737;
+    width: 1px;
+    height: 43px;
+    border-radius: 2px;
+}
+button3{
+    width: 260px;
+    height: 43px;
+    background-color: black;
+    border-radius: 99px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button3:hover{
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #12bcf0, #1013ca, #140c7a, #1d78cd, #1341e9);
+    background-size: 300% 300%;
+    background-position: right center;
+    transition: background-position 2.5s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+button3 a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Tiktok*/
+.card-main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+.gradient-border3{
+    padding: 2px;
+    border-radius: 12px;
+    background: linear-gradient(125deg, #25F4EE, #FE2C55, #000000);
+    display: inline-block;
+    box-sizing: border-box;
+    animation: float 2.5s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gradient-border3:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card3{
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.header-img3{
+    width: 295.3px;
+    height: 150.1px;
+    border-radius: 12px;
+    margin-top: 2px;
+}
+.profile-pic3{
+    width: 82px;
+    height: 82px;
+    border-radius: 99px;
+    /* margin-top: -30px; */
+}
+.main-text3{
+    text-align: center;
+    margin-top: -15px;
+}
+.info-main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 15px;
+}
+.info10{
+    text-align: center;
+    row-gap: 100px;
+}
+.info11{
+    text-align: center;
+    row-gap: 100px;
+}
+.info12{
+    text-align: center;
+    row-gap: 100px;
+}
+button4{
+    width: 260px;
+    height: 43px;
+    background-color: black;
+    border-radius: 99px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button4:hover{
+    transform: translateY(-3px);
+    background: #FE2C55;
+    background-size: 300% 300%;
+    background-position: right center;
+    transition: background-position 2.5s ease, transform 0.3s ease;
+    cursor: pointer; 
+}
+button4 a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/*Mobile Responsiveness Section */
+@media only screen and (max-width: 720px){
+body {
+    background-size: auto 400% !important;
+    background-position: center 0 !important;
+    background-attachment: scroll !important;
+  }
+}
