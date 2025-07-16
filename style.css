@@ -2,8 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 body{
-    background-image: url("Frame.jpg");
+    background-image: url("banner.jpg");
     background-size: cover;
+    background-size: auto 250% ;
     background-position: center top;
     background-repeat: no-repeat;
     font-family: 'Inter', sans-serif;
@@ -179,7 +180,7 @@ button a{
 /*Mobile Responsiveness Section */
 @media only screen and (max-width: 720px){
 body {
-    background-size: auto 250% !important;
+    background-size: auto 350% !important;
     background-position: center 0 !important;
     background-attachment: scroll !important;
   }
@@ -196,7 +197,7 @@ body {
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    margin-top: 150px !important;
+    margin-top: 200px !important;
     align-items: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
